@@ -16,7 +16,7 @@ def star():
 def evenodd():
     rem = n % 2;
     if (rem == 0):
-        print("This is an Even number. Insert Odd number for the star output\n")
+        print("Please insert Odd number only for the star output\n")
         return 0
     else:
         star()

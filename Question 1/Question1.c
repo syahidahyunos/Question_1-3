@@ -8,7 +8,7 @@ int i, j, n, rem;
     scanf("%d", &n);
     rem = n % 2;
     if (rem == 0)
-        printf("%d is an Even number. Insert Odd number for the star output\n", n);
+        printf("Please insert Odd number only for the star output\n", n);
     else
        for(i=0;i<n;i++)
    {
